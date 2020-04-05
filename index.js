@@ -186,7 +186,7 @@ function changeLanguage() {
       break;
   }
 }
-
+/* ВОТ ЭТА ФУНКЦИЯ НЕ РАБОТАЕТ ПРИ КЛИКЕ*/
 function pressKey(keyCode) {
 
   switch (keyCode) {
