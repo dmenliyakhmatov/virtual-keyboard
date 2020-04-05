@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.keyboard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 10%;
+  border: 1px solid #000000;
+}
+
+.key {
+  display: block;
+  font-size: 20px;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+}
+
+.functional-key {
+  display: block;
+  font-size: 20px;
+  margin-left: 5px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+}
+
+.active {
+  background-color: aqua;
+}
+
+textarea {
+  margin: 50px 20%;
+}
